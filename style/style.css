@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    overflow: hidden;
+}
+body{
+    font-family: 'Fredoka One', cursive;
+    background: #27ae60;
+    color: #ecf0f1;
+}
+.home {
+    position: absolute;
+    transition: transform 0.5s ease;
+    height: 100vh;
+    width: 100vw;
+    background: #27ae60;
+}
+.home .logo {
+    display: block;
+    width: 100vw;
+    text-align: center;
+    position: absolute;
+    /* top: 25vh; */
+    top: 20vh;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 13vw;
+    color: #ecf0f1;
+    text-shadow: 0 5px 1px #2c3e50;
+}
+.home .logo i {
+    font-size: 35vw;
+    padding-left: 12vw;
+    padding-bottom: 1vh;
+}
+.home .play {
+    display: block;
+    width: 100vw;
+    text-align: center;
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 4.5vw;
+    color: rgba(236, 240, 241, 0.65);
+}
+.home #play {
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+}
+.cartas {
+    position: absolute;
+    transition: transform 0.5s ease;
+    height: 100vh;
+    width: 100vw;
+    background: #27ae60;
+}
+.cartas #back {
+    position: absolute;
+    height: 100vh;
+    width: 30vw;
+    top: 0;
+    left: 0;
+}
+.cartas #next {
+    position: absolute;
+    height: 100vh;
+    width: 70vw;
+    top: 0;
+    right: 0;
+}
+.carta {
+    transition: transform 0.28s linear;
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    padding: 20px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+.carta label {
+    font-size: 10vw;
+    text-align: center;
+    text-shadow: 0 5px 1px #2c3e50;
+}
+.p-view {
+    transform: translateX(-100%);
+}
+.view {
+    transform: translateX(0);
+}
+.n-view {
+    transform: translateX(100%);
+}
+.on {
+    transform: translateX(0);
+}
+.offf {
+    transform: translateX(100%);
+}
+.off {
+    transform: translateX(-100%);
+}
+
+
+#carta-1 {
+    background: #27ae60;
+    height: 90vh;
+}
+#carta-1 label {
+    font-size: 7vw;
+}
+#carta-1 label span {
+    font-size: 12vw;
+    line-height: 300%;
+}
+#carta-2 {
+    background: #2980b9;
+}
+#carta-3 {
+    background: #8e44ad;
+}
+#carta-4 {
+    background: #c0392b;
+}
+#carta-5 {
+    background: #f39c12;
+}
+#carta-6 {
+    background: #16a085;
+}
+#carta-7 {
+    background: #d35400;
+}
+
+.banner {
+    position: absolute;
+    z-index: 9999;
+    top: -1%;
+    right: -11%;
+    background: #e74c3c;
+    padding: 20px 40px 10px 40px;
+    transform: rotate(45deg);
+}
+/* https://flatuicolors.com/palette/defo */
